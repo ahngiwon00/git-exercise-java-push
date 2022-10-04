@@ -2,15 +2,9 @@ import java.util.Scanner;
 
 public class Test {
 
-    public void Soultion(int money){
+    public static void main(String[] args) {
 
-        /*int[] currentType= new int[]{50000,10000,5000,1000,500,100,50,10};
-        for(int i=0; i<currentType.length; i++){
-            System.out.println(currentType[i]+":" +money/currentType[i]);
-            money=money%currentType[i];
-
-        }*/
-
+        int money=25430;
         int c50000= 50000;
         int c10000= 10000;
         int c5000= 5000;
@@ -37,17 +31,6 @@ public class Test {
         System.out.println("십원: "+money/c10+" 나머지:"+money%c10);
         money=money%c10;
 
-
-
-
-
-
-    }
-    public static void main(String[] args) {
-        Test t = new Test();
-        Scanner sc= new Scanner(System.in);
-        int money= sc.nextInt();
-        t.Soultion(money);
 
     }
 }
