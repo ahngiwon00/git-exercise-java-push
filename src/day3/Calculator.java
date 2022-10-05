@@ -14,7 +14,6 @@ public class Calculator implements Radom{
 
     public Calculator(int a) {
         this.a = a;
-
     }
 
     public void plus(){
@@ -32,10 +31,6 @@ public class Calculator implements Radom{
         else
             System.out.println((float) a/b);
 
-
-
     }
-
-
 
 }
