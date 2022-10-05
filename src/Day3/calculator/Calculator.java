@@ -1,4 +1,4 @@
-package day3.calculator;
+package Day3.calculator;
 
 public class Calculator {
     //NunberMaker에서 만들어준 숫자를 가지고 사칙연산한 결과를 출력한다
@@ -11,7 +11,5 @@ public class Calculator {
     public void plus(int a){
         int result = a+this.numberGenerator.generate(10);
         System.out.println(result);
-
-
     }
 }

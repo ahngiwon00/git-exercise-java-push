@@ -1,4 +1,4 @@
-package day3.calculator;
+package Day3.calculator;
 
 public class CalculatorMain {
     public static void main(String[] args) {
