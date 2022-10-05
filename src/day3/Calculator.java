@@ -1,12 +1,20 @@
 package day3;
-
-public class Calculator {
+interface Radom{
+    public void RandomNumber();
+}
+public class Calculator implements Radom{
     private int a;
     private int b;
 
-    public Calculator(int a, int b) {
+    @Override
+    public void RandomNumber() {
+        this.b=(int)(Math.random()*10);
+    }
+
+
+    public Calculator(int a) {
         this.a = a;
-        this.b = b;
+
     }
 
     public void plus(){
@@ -19,8 +27,15 @@ public class Calculator {
         System.out.println(a*b);
     }
     public void divide(){
-        System.out.println((float) a/b);
+        if(b==0)
+            System.out.println("램덤숫자가 0입니다");
+        else
+            System.out.println((float) a/b);
+
+
+
     }
+
 
 
 }
