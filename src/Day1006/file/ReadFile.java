@@ -11,9 +11,13 @@ public class ReadFile {
 
     public static void main(String[] args) throws IOException {
         FileReader reader = new FileReader("./a_file.txt");
-        for(int i=0; i<2; i++){
-            System.out.println((char) reader.read());
+        int ch;
+        while((ch=reader.read())!=-1){
+            System.out.println((char) ch);
         }
+      /*  for(int i=0; i<2; i++){
+            System.out.println((char) reader.read());
+        }*/
        /* char c= (char) reader.read();
         System.out.println(c);*/
 
