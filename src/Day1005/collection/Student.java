@@ -1,4 +1,4 @@
-package Day3.collection;
+package Day1005.collection;
 
 public class Student {
     private int classNo;

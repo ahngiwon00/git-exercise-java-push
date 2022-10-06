@@ -1,4 +1,4 @@
-package Day3.calculator;
+package Day1005.calculator;
 
 public class SpecificNumberGenerator implements NumberGenerator{
 
