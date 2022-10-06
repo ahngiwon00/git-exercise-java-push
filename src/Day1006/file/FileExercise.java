@@ -7,7 +7,7 @@ import java.io.FileReader;
 public class FileExercise {
 
     public static void main(String[] args) throws FileNotFoundException {
-        File dir= new File("./");
+        File dir= new File("./"); // ./->현재디렉토리 뜻함
         File files[] = dir.listFiles();
         //listFiles() : 디렉토리 경로에 있는 파일들을 배열로 리턴
         for(File file : files){
