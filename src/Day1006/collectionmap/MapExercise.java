@@ -1,4 +1,4 @@
-package Day1006.collectionset;
+package Day1006.collectionmap;
 
 import java.util.HashMap;
 
@@ -42,7 +42,6 @@ public class MapExercise {
         map.put( "정라온", "https://github.com/Bae-Ji-Won/Java-Study");
         map.put( "서서한", "https://github.com/geunnseung/java_exercise_intellij_push.git");
         map.put( "문주호", "https://github.com/JiMandy00/Java_LikeLion");
-        map.put("오세아", "JAVA-GIT-TEST/src at main · seop93/JAVA-GIT-TEST (github.com)");
         map.put( "이호영", "https://github.com/sjhlko/git-exercise-java");
         map.put( "손윤아", "https://github.com/tgseo76/javja-ex");
         map.put( "이동우", "https://github.com/seanee3670/CodeLion/tree/master/src");
@@ -58,7 +57,6 @@ public class MapExercise {
         map.put("노지아", "https://github.com/SoonMinEom/LikeALion");
         map.put( "신아인", "https://github.com/ohy1023/newtest");
         map.put("양시은", "https://github.com/SuInWoo/LikeLion2th");
-        map.put( "노석현", "");
         map.put( "손강준", "https://github.com/inkyu-yoon/IntelliJ_Commit_Test");
         map.put( "백주안", "https://github.com/KaNoopy/like_lion.git");
         map.put("강단우", "https://github.com/ondayary/java-init-project.git");
@@ -69,7 +67,6 @@ public class MapExercise {
         map.put("손도헌", "https://github.com/slrkajsep337/JavaStudy");
         map.put( "전진우", "https://github.com/ajin0516/java_project.git");
         map.put( "안주하", "https://github.com/yjyj1023/java-Calculator2");
-        map.put( "백다은", "");
         map.put("유민기", "https://github.com/hyeonju01/likelion_repo3_test/tree/main/src/week3/day2");
         map.put( "노휘", "https://github.com/hakjun1/intelij-git-exercise03");
         map.put( "박채원", "https://github.com/jangseoyun/Intellij-git-exercise");
