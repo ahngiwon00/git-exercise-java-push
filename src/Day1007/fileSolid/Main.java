@@ -1,4 +1,6 @@
-package Day1007.bigfile;
+package Day1007.fileSolid;
+
+import Day1007.bigfile.PopulationMove;
 
 import java.io.IOException;
 import java.util.List;

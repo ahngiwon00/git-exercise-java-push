@@ -1,4 +1,4 @@
-package Day1007.bigfile;
+package Day1007.fileSolid;
 
 import java.util.List;
 

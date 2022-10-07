@@ -1,4 +1,6 @@
-package Day1007.bigfile;
+package Day1007.fileSolid;
+
+import Day1007.fileSolid.DoSomething;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
