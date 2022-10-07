@@ -106,6 +106,7 @@ public class PopulationStatistics {
 
     }
 
+
     public static void main(String[] args) throws IOException {
         //String address = "C:\\Users\\SoMin\\Downloads\\2021_인구관련연간자료_20220927_66125.csv";
         String address = "./from_to.txt";
