@@ -18,10 +18,14 @@ public class Solution {
 
     public static void main(String[] args) {
         Solution solution = new Solution();
-        Scanner sc= new Scanner(System.in);
-        int n = sc.nextInt();
+        int result1 = solution.solution(1234);
+        if(result1 ==10){
+            System.out.println("테스트통과");
+        }
+        else{
+            System.out.println("테스트 실패 result:"+result1);
+        }
 
-        solution.solution(n);
 
     }
 }
