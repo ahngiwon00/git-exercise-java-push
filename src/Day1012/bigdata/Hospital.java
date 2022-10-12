@@ -50,13 +50,13 @@ public class Hospital {
 //`name`,
 //`subdivision`)
     public String toSqlString(){
-        String sql= "INSERT INTO `likerlion-db`.`seoul_hospital` (`id`,`address`,`district`,`category`,`emergency_room`,`name`,`subdivision`) " +
+        String sql= "INSERT INTO `likerlion-db`.`seoul_hospital` (`id`,`address`,`district`,`category`,`emergency_room`,`name`,`subdivision`) \n" +
                 "VALUES ('" + this.id + "','" + this.address + "','" + this.district + "','" + this.category + "'," +
                 this.emergencyRoom + ",'" + this.name + "',";
         if(subdivision==null)
-            return sql+this.subdivision+");";
+            return sql+this.subdivision+");\n";
         else
-            return sql+"'"+this.subdivision+"');";
+            return sql+"'"+this.subdivision+"');\n";
     }
 
 }
