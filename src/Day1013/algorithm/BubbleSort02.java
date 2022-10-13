@@ -1,8 +1,8 @@
 package Day1013.algorithm;
 
-public class Bubblesort01 {
+public class BubbleSort02 {
 
-    public int[] sort(int[] arr){
+    public int[] Bbsort02(int[] arr){
         int tmp;
         for(int i=0; i<arr.length-1; i++){
 
@@ -21,8 +21,9 @@ public class Bubblesort01 {
     public static void main(String[] args) {
         int[] arr = new int[]{7, 2, 3, 9, 28, 11};
         //오름차순
-        Bubblesort01 bubblesort01 = new Bubblesort01();
-        for(int a : bubblesort01.sort(arr))
+        BubbleSort02 bubbleSort01 = new BubbleSort02();
+        for(int a : bubbleSort01.Bbsort02(arr))
             System.out.println(a);
     }
+
 }
