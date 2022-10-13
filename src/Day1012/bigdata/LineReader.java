@@ -22,7 +22,7 @@ public class LineReader<T> {
 
         String str;
         while ((str = br.readLine()) != null) {
-            str=str.replace("\"","");
+
             result.add(parser.parse(str));
         }
         return result;
