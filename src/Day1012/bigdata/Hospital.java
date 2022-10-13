@@ -40,8 +40,35 @@ public class Hospital {
         }
     }
 
+    public String getId() {
+        return id;
+    }
 
-//INSERT INTO `likerlion-db`.`seoul_hospital`
+    public String getAddress() {
+        return address;
+    }
+
+    public String getCategory() {
+        return category;
+    }
+
+    public Integer getEmergencyRoom() {
+        return emergencyRoom;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getSubdivision() {
+        return subdivision;
+    }
+
+    public String getDistrict() {
+        return district;
+    }
+
+    //INSERT INTO `likerlion-db`.`seoul_hospital`
 //(`id`,
 //`address`,
 //`district`,
