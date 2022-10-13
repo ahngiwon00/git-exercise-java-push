@@ -1,4 +1,4 @@
-package even_odd;
+package Day1004.even_odd;
 
 import java.util.Scanner;
 
