@@ -1,5 +1,7 @@
 package Day1014;
 
+import java.util.Arrays;
+
 public class InsertSort {
     public int[] insertSort(int[] arr){
         for(int i =1; i<arr.length; i++){
@@ -15,12 +17,8 @@ public class InsertSort {
     }
 
     public static void main(String[] args) {
-        int[] arr= new int[]{8,5,6,2,4};
-        InsertSort is= new InsertSort();
-        for(int a : is.insertSort(arr))
-            System.out.println(a);
-
-
-
+        int[] arr = new int[]{8, 5, 6, 2, 4};
+        InsertSort is = new InsertSort();
+        System.out.println(Arrays.toString(is.insertSort(arr)));
     }
 }
