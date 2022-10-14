@@ -18,11 +18,6 @@ public class Hospital {
         this.setSubdivision();
         this.setDistrict();
     }
-
-
-
-
-
     private void setDistrict(){
         String[] splitted = this.address.split(" ");
         this.district = splitted[0]+" "+splitted[1];
@@ -39,11 +34,9 @@ public class Hospital {
             }
         }
     }
-
     public String getId() {
         return id;
     }
-
     public String getAddress() {
         return address;
     }
@@ -69,13 +62,7 @@ public class Hospital {
     }
 
     //INSERT INTO `likerlion-db`.`seoul_hospital`
-//(`id`,
-//`address`,
-//`district`,
-//`category`,
-//`emergency_room`,
-//`name`,
-//`subdivision`)
+
     public String toSqlString(){
         String sql= "INSERT INTO `likerlion-db`.`seoul_hospital` (`id`,`address`,`district`,`category`,`emergency_room`,`name`,`subdivision`) \n" +
                 "VALUES ('" + this.id + "','" + this.address + "','" + this.district + "','" + this.category + "'," +
@@ -87,3 +74,5 @@ public class Hospital {
     }
 
 }
+
+
