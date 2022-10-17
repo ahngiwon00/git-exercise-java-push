@@ -4,6 +4,10 @@ public class RightTriangle {
 
     private char a;
 
+    public RightTriangle(){
+
+    }
+
     public RightTriangle(char a) {
         this.a = a;
     }
